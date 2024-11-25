@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package hello;
+
+option go_module = "github.com/afanasjev/proto-repo/protogen/go/hello";
+
+message HelloRequest {
+  string name = 1;
+}
+
+message HelloResponse {
+  string greet = 1;
+};
