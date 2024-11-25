@@ -11,3 +11,7 @@ message HelloRequest {
 message HelloResponse {
   string greet = 1;
 };
+
+service HelloService {
+  func SayHello(HelloRequest) returns (HelloResponse) {}
+}
