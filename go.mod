@@ -1,4 +1,4 @@
-module github.com/proto-repo
+module github.com/afanasjev/proto-repo
 
 go 1.20
 
