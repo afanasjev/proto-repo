@@ -6,6 +6,7 @@ option go_package = "github.com/afanasjev/proto-repo/protogen/go/hello";
 
 message HelloRequest {
   string name = 1;
+  string full_name = 16;
 }
 
 message HelloResponse {
